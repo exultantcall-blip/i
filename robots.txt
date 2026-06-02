@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /docs/
+Disallow: /scripts/
+
+Sitemap: https://imamov-remont.ru/sitemap.xml

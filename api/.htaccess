@@ -1,0 +1,9 @@
+Options -Indexes
+
+<FilesMatch "^lead-config(\.example)?\.php$">
+  Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(md|txt|json|log|bak|old|zip|ini|env|yml|yaml|toml)$">
+  Require all denied
+</FilesMatch>
